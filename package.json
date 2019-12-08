@@ -1,0 +1,19 @@
+{
+  "name": "ll",
+  "version": "1.0.0",
+  "description": "compute the distance, order by near place using GPS coordinates",
+  "main": "main.ts",
+  "author": "siemh",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/gps.js",
+    "dev": "nodemon src/gps.ts",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "nodemon": "^2.0.1",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  }
+}
